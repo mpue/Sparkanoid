@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicationMenubar>
+	<menus>
+		<name>File</name>
+		<mnemonic>F</mnemonic>
+		<items>
+			<name>New</name>
+			<actionClass>org.pmedv.leveleditor.commands.CreateLevelCommand</actionClass>
+			<mnemonic>N</mnemonic>
+			<modifier>ctrl</modifier>
+			<toolTipText>Creates a new level</toolTipText>
+			<imageIcon>icons/silk/document_plain.png</imageIcon>
+		</items>		
+		<items>
+			<name>Open</name>
+			<actionClass>org.pmedv.leveleditor.commands.OpenLevelCommand</actionClass>
+			<mnemonic>L</mnemonic>
+			<modifier>ctrl</modifier>
+			<toolTipText>Loads an existing level</toolTipText>
+			<imageIcon>icons/silk/folder.png</imageIcon>
+		</items>		
+		<items>
+			<name>Save</name>
+			<actionClass>org.pmedv.leveleditor.commands.SaveLevelCommand</actionClass>
+			<mnemonic>S</mnemonic>
+			<modifier>ctrl</modifier>
+			<toolTipText>Saves an existing level</toolTipText>
+			<imageIcon>icons/silk/disk.png</imageIcon>
+		</items>				
+		<items>
+			<name>Exit</name>
+			<actionClass>org.pmedv.leveleditor.commands.EditorExitCommand</actionClass>
+			<imageIcon>icons/silk/quit.png</imageIcon>
+			<mnemonic>X</mnemonic>
+			<modifier>ctrl</modifier>
+			<toolTipText>Exits the application</toolTipText>
+		</items>				
+		<type>file</type>
+	</menus>
+</applicationMenubar>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://sparkanoid.weberknechtcms.org/" href="sparkanoid.jnlp">
+	<information>
+		<title>Sparkanoid</title>
+		<vendor>PMEDV</vendor>
+		<homepage href="http://sparkanoid.weberknechtcms.org" />
+		<description>Arcade game</description>
+		<description kind="short"></description>
+		<!-- 
+		<icon href="icon.gif" />
+		<icon kind="splash" href="splash.gif" />
+		 -->
+		<offline-allowed />
+	</information>
+	<security>
+		<all-permissions />
+	</security>
+	<resources>
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.6+" />
+		<jar href="Sparkanoid.jar"/>
+		<jar href="lib/CodecJOgg.jar"/> 
+	    <jar href="lib/CodecWav.jar"/>
+		<jar href="lib/LibraryJavaSound.jar"/>
+		<jar href="lib/SoundSystem.jar"/>
+	</resources>
+	<resources os="Windows">
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.6+" />
+	</resources>
+	<resources os="Linux">
+		<j2se href="http://java.sun.com/products/autodl/j2se" version="1.6+" />
+	</resources>
+	<application-desc
+		name="Sparkanoid"
+		main-class="de.pueski.game.Application">
+	</application-desc>
+</jnlp>

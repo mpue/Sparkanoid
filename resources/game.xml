@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<game>
+    <level>
+        <name>level3.xml</name>
+        <backgroundImage>lounge.png</backgroundImage>
+    </level>
+    <level>
+        <name>level1.xml</name>
+        <songfile>ReSeT.Exposition.ogg</songfile>
+        <backgroundImage>maze.png</backgroundImage>
+    </level>
+    <level>
+        <name>level3.xml</name>
+        <songfile>ReSeT.Journey.to.Silius.ogg</songfile>        
+        <backgroundImage>level2.png</backgroundImage>
+    </level>        
+    <level>
+        <name>level4.xml</name>
+        <songfile>Tothesea.ogg</songfile>
+        <backgroundImage>level3.png</backgroundImage>
+    </level>
+</game>

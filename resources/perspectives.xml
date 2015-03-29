@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicationPerspectiveList>
+	<perspectives>
+		<perspectiveIcon>icons/sparkanoid_icon.jpg</perspectiveIcon>
+		<name>LevelEditorPerspective</name>
+		<id>levelEditorPerspective</id>
+		<perspectiveClass>org.pmedv.leveleditor.LevelEditorPerspective</perspectiveClass>
+		<toolTipText>Opens the level editor perspective</toolTipText>
+		<menubarContributions>
+		    <name>Edit</name>
+		    <mnemonic>E</mnemonic>
+			<items>
+				<name>Undo</name>
+				<actionClass>org.pmedv.leveleditor.commands.UndoCommand</actionClass>
+				<toolTipText>Makes all good</toolTipText>			
+				<mnemonic>Z</mnemonic>
+				<modifier>ctrl</modifier>
+				<imageIcon>icons/silk/arrow_undo.png</imageIcon>			
+			</items>
+			<items>
+				<name>Add brick</name>
+				<actionClass>org.pmedv.leveleditor.commands.AddBrickCommand</actionClass>
+				<toolTipText>Adds a brick</toolTipText>				
+				<imageIcon>icons/silk/shape_square_add.png</imageIcon>
+			</items>
+			<items>
+				<name>Set background image</name>
+				<actionClass>org.pmedv.leveleditor.commands.SetImageCommand</actionClass>
+				<toolTipText>Adds a background image</toolTipText>
+				<imageIcon>icons/silk/image.png</imageIcon>				
+			</items>
+			<items>
+				<name>Set level music</name>
+				<actionClass>org.pmedv.leveleditor.commands.SetMusicCommand</actionClass>
+				<toolTipText>Adds a background music</toolTipText>
+				<imageIcon>icons/silk/speaker.jpg</imageIcon>								
+			</items>
+			
+		</menubarContributions>		
+		<menubarContributions>
+		    <name>View</name>
+		    <mnemonic>V</mnemonic>
+			<items>
+				<name>Show grid</name>
+				<actionClass>org.pmedv.leveleditor.commands.ToggleGridCommand</actionClass>
+				<toolTipText>Toggle grid</toolTipText>				
+				<type>ApplicationMenuItemType.CHECKBOX</type>								
+			</items>
+			<items>
+				<name>Snap to grid</name>
+				<actionClass>org.pmedv.leveleditor.commands.ToggleSnapToGridCommand</actionClass>
+				<toolTipText>Toggle snap to grid</toolTipText>				
+				<type>ApplicationMenuItemType.CHECKBOX</type>								
+			</items>
+			<items>
+				<name>Play Sparknaoid</name>
+				<actionClass>org.pmedv.leveleditor.commands.PlaySparkyCommand</actionClass>
+				<toolTipText>Play!</toolTipText>												
+			</items>			
+		</menubarContributions>		
+		
+		
+	</perspectives>
+</applicationPerspectiveList>

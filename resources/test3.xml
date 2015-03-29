@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<level>
+    <name>Level</name>
+    <bricks>
+        <XLoc>50</XLoc>
+        <YLoc>25</YLoc>
+        <color>
+            <red>255</red>
+            <green>255</green>
+            <blue>0</blue>
+        </color>
+        <hitCount>1</hitCount>
+        <destroyable>true</destroyable>
+        <score>1000</score>
+    </bricks>
+</level>

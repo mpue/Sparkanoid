@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applicationToolbar>
+	<items>
+		<name>New</name>
+		<actionClass>org.pmedv.leveleditor.commands.CreateLevelCommand</actionClass>
+		<toolTipText>Creates a new level</toolTipText>
+		<imageIcon>icons/silk/document_plain.png</imageIcon>
+	</items>
+	<items>
+		<name>Open</name>
+		<actionClass>org.pmedv.leveleditor.commands.OpenLevelCommand</actionClass>
+		<toolTipText>Loads an existing level</toolTipText>
+		<imageIcon>icons/silk/folder.png</imageIcon>
+	</items>		
+	<items>
+		<name>Save</name>
+		<actionClass>org.pmedv.leveleditor.commands.SaveLevelCommand</actionClass>
+		<toolTipText>Saves an existing level</toolTipText>
+		<imageIcon>icons/silk/disk.png</imageIcon>
+	</items>							
+	<items>
+		<name>Exit</name>
+		<actionClass>org.pmedv.leveleditor.commands.EditorExitCommand</actionClass>
+		<imageIcon>icons/silk/quit.png</imageIcon>
+		<toolTipText>Exits the application</toolTipText>
+	</items>
+</applicationToolbar>
